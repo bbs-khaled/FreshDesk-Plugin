@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <title>A Template App</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script async src="https://cdn.freshdev.io/assets/app-client@2.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <link href="https://static.freshdev.io/fdk/2.0/assets/freshdesk.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="main">
+    <div id="entete">
+        <p id="titre"></p>
+        <div id="lien">
+            <a id="lienfiche" title="Voir la fiche complète" target="_blank" href="https://intranet.bbs-logiciels.com/wincli/licence.php">Fiche complète</a>
+        </div>
+    </div>
+    <div class="fw-divider"></div>
+    <div id="donnees">
+        <p><span id="societe"></span><br><span id="ville"></span></p>
+        <div class="fw-divider"></div>
+        <div id="licence">
+            <div class="muted">Validité</div>
+            <div id="validite"></div>
+            <div class="muted">Réseau</div>
+            <div id="reseau"></div>
+            <div class="muted">Hébergée</div>
+            <div id="clehebergee"></div>
+            <div class="muted">Type clef</div>
+            <div id="typeclef"></div>
+            <div class="muted">Code clef</div>
+            <div id="codeclef"></div>
+            <div class="muted">Maintenance</div>
+            <div id="maintenance"></div>
+            <div class="muted">SAV</div>
+            <div id="sav"></div>
+            <div class="muted">Blocage tél.</div>
+            <div id="blocagetel"></div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script defer src="scripts/app.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@freshworks/crayons@v4/dist/crayons/crayons.js"></script>
+</html>

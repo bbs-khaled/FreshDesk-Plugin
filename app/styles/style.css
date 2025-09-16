@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*::before {
+    box-sizing: inherit;
+}
+
+.main {
+    display: flex;
+    flex-flow: column wrap;
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+#titre {
+    font-weight: bold;
+}
+
+#licence {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#licence div {
+    border-bottom: dotted thin gray;
+    padding: 2px;
+}
+
+#licence div:nth-child(odd) {
+    color: gray;
+}
+
+.alert {
+    color: red;
+}
+
+#societe, #ville {
+    color: gray;
+    font-weight: bold;
+}
+
+#lien {
+    margin-top: 20px;
+}

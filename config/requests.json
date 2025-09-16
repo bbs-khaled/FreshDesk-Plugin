@@ -1,0 +1,40 @@
+{
+  "requestLicence": {
+    "schema": {
+      "protocol": "https",
+      "method": "GET",
+      "host": "www.bbs-logiciels.com",
+      "path": "/commun/service/espaceclient/getFichierLicence.php",
+      "query": {
+        "s": "<%= context.s %>",
+        "l": "<%= context.l %>",
+        "clear": "",
+        "j": ""
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    "options": {
+      "retryDelay": 1000
+    }
+  },
+  "requestSAV": {
+    "schema": {
+      "protocol": "https",
+      "method": "GET",
+      "host": "www.bbs-logiciels.com",
+      "path": "/commun/service/sav.php",
+      "query": {
+        "s": "<%= context.s %>",
+        "l": "<%= context.l %>"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    "options": {
+      "retryDelay": 1000
+    }
+  }
+}
