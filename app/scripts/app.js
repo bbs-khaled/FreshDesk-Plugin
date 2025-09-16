@@ -1,28 +1,19 @@
 let client;
-let logiciel_nom = '';
-let logiciel_licence = '';
-let logiciel_identifiant = -1;
 
 init();
 
 async function init() {
     client = await app.initialized();
     client.events.on('app.activated', appActiveHandler);
-    client.events.on('app.deactivated', appDeactiveHandler);
 }
 
-function appActiveHandler()
-{
+function appActiveHandler() {
     console.info("App is activated");
     renderText();
 }
-function appDeactiveHandler()
-{
-    console.info("App is deactivated");
-}
 
 function displayStatus(type, message) {
-    client.interface.trigger('showNotify', {type: type, message: message});
+    client.interface.trigger('showNotify', { type: type, message: message });
 }
 
 function codeLogiciel(Nom) {
@@ -47,8 +38,6 @@ function codeLogiciel(Nom) {
 async function getTicketDetails() {
     try {
         const ticketData = await client.data.get('ticket');
-        // success output
-        // data is {ticket: {"subject": "support needed for..",..}}
         const {
             ticket: {
                 custom_fields: {
@@ -57,194 +46,202 @@ async function getTicketDetails() {
                 }
             }
         } = ticketData;
-        //console.log(ticketData);
-        logiciel_nom = logiciel;
-        logiciel_licence = n_de_licence;
-        logiciel_identifiant = codeLogiciel(logiciel_nom);
-        afficheTitre();
-        afficheLien();
+        
+        const ticketDetails = {
+            nom: logiciel,
+            licence: n_de_licence,
+            identifiant: codeLogiciel(logiciel)
+        };
+        
+        afficheTitre(ticketDetails);
+        afficheLien(ticketDetails);
+        return ticketDetails;
 
     } catch (error) {
-        // failure operation
-        console.log(error);
+        console.error("Erreur lors de la récupération des détails du ticket:", error);
+        // Affiche un message d'erreur si les champs ne sont pas trouvés
+        writeToId('titre', "Champs personnalisés manquants ou illisibles.");
+        return null;
     }
 }
 
-async function getLicenceDetails() {
+async function getLicenceDetails(details) {
     try {
-        await client.request.invokeTemplate("requestLicence", {
+        const data = await client.request.invokeTemplate("requestLicence", {
             context: {
-                s: logiciel_identifiant,
-                l: logiciel_licence
+                s: details.identifiant,
+                l: details.licence
             }
-        }).then(function (data) {
-            displayStatus('success', 'Informations de licence récupérées');
-            afficheInformations(data.response);
-        }, function (error) {
-            displayStatus('danger', 'Échec de la requête');
-            console.log(error);
         });
-
+        displayStatus('success', 'Informations de licence récupérées');
+        afficheInformations(data.response);
     } catch (error) {
-        // failure operation
-        console.log(error);
+        displayStatus('danger', 'Échec de la requête de licence');
+        console.error("Erreur de requête (Licence):", error);
     }
 }
 
-async function getSAVDetails() {
+async function getSAVDetails(details) {
     try {
-        await client.request.invokeTemplate("requestSAV", {
+        const data = await client.request.invokeTemplate("requestSAV", {
             context: {
-                s: logiciel_identifiant,
-                l: logiciel_licence
+                s: details.identifiant,
+                l: details.licence
             }
-        }).then(function (data) {
-            displayStatus('success', 'Informations de licence récupérées');
-            afficheInformationsSAV(data.response);
-        }, function (error) {
-            displayStatus('danger', 'Échec de la requête');
-            console.log(error);
         });
-
+        displayStatus('success', 'Informations SAV récupérées');
+        afficheInformationsSAV(data.response);
     } catch (error) {
-        // failure operation
-        console.log(error);
+        displayStatus('danger', 'Échec de la requête SAV');
+        console.error("Erreur de requête (SAV):", error);
     }
 }
 
-function writeToId(id, text, alert=false) {
+function writeToId(id, text, alert = false) {
     const textElement = document.getElementById(id);
-    textElement.innerHTML = text;
-    if (alert) textElement.classList.add("alert");
-    else textElement.classList.remove("alert");
+    if (textElement) {
+        textElement.innerHTML = text;
+        if (alert) textElement.classList.add("alert");
+        else textElement.classList.remove("alert");
+    }
 }
 
 function showId(id) {
     const element = document.getElementById(id);
-    element.style.display = 'block';
+    if (element) {
+        element.style.display = 'block';
+    }
 }
 
 function hideId(id) {
     const element = document.getElementById(id);
-    element.style.display = 'none';
-}
-
-function afficheTitre() {
-    if (!logiciel_nom)
-        writeToId('titre', "Nom du logiciel manquant");
-    else {
-        if (!logiciel_licence)
-            writeToId('titre', "N° de licence manquant");
-        else
-            //writeToId('titre', logiciel_nom + " (" + logiciel_identifiant + ")<br>licence n°" + logiciel_licence);
-            writeToId('titre', logiciel_nom + "<br>licence n°" + logiciel_licence);
+    if (element) {
+        element.style.display = 'none';
     }
 }
 
+function afficheTitre(details) {
+    if (!details || !details.nom)
+        writeToId('titre', "Nom du logiciel manquant");
+    else if (!details.licence)
+        writeToId('titre', "N° de licence manquant");
+    else
+        writeToId('titre', details.nom + "<br>licence n°" + details.licence);
+}
+
 function chaineDate(laDate) {
-    if (laDate==='2050-12-31') return "perpétuelle";
+    if (laDate === '2050-12-31') return "perpétuelle";
     else return (new Date(laDate).toLocaleDateString());
 }
 
-function chaineClef(type)
-{
-    const tableau = { 1 : "SuperPro", 2 : "LDK HL", 3 : "LDK SL", 99 : "Sans clef"};
+function chaineClef(type) {
+    const tableau = { 1: "SuperPro", 2: "LDK HL", 3: "LDK SL", 99: "Sans clef" };
     return tableau[type];
 }
-function afficheLien() {
-    const Fiche_URL= "https://intranet.bbs-logiciels.com/wincli/licence.php";
-    document.getElementById("lienfiche").href = Fiche_URL+'?s='+logiciel_identifiant+'&l='+logiciel_licence;
+
+function afficheLien(details) {
+    if (details && details.identifiant && details.licence) {
+        const Fiche_URL = "https://intranet.bbs-logiciels.com/wincli/licence.php";
+        const lien = document.getElementById("lienfiche");
+        if (lien) {
+            lien.href = Fiche_URL + '?s=' + details.identifiant + '&l=' + details.licence;
+        }
+    }
 }
 
-function decode_utf8(s)
-{
-    return decodeURI(escape(s));
+function decode_utf8(s) {
+    try {
+      return decodeURIComponent(escape(s));
+    } catch(e) {
+      return s; // Retourne la chaine originale en cas d'erreur
+    }
 }
 
 function afficheInformations(Donnees) {
-
-    //console.log(Donnees);
-
-    const {
-            infos : {
+    try {
+        const {
+            infos: {
                 nom,
-                adresse: {ville}
+                adresse: { ville }
             },
-            version : {
+            version: {
                 reseau,
                 jetons,
                 dateExpiration
             },
-            droitMaJ : {
+            droitMaJ: {
                 actif,
                 dateFin
             },
-            clef    : {
+            clef: {
                 type,
                 code,
                 clehebergee
             }
+        } = JSON.parse(Donnees);
 
-    } = JSON.parse(Donnees);
+        writeToId("societe", nom);
+        writeToId("ville", ville);
+        writeToId("validite", chaineDate(dateExpiration));
 
-    writeToId("societe", nom);
-    writeToId("ville", ville);
+        if (actif === "1")
+            writeToId("maintenance", "jusqu'au<br>" + chaineDate(dateFin));
+        else
+            writeToId("maintenance", "échue", true);
 
-    writeToId("validite", chaineDate(dateExpiration));
+        if (reseau === "1")
+            writeToId("reseau", "oui<br>" + jetons + " jetons");
+        else
+            writeToId("reseau", "non");
 
-    if (actif==="1")
-        writeToId("maintenance", "jusqu'au<br>"+chaineDate(dateFin));
-    else
-        writeToId("maintenance", "échue", true);
+        if (clehebergee === "1")
+            writeToId("clehebergee", "oui");
+        else
+            writeToId("clehebergee", "non");
 
-    if (reseau==="1")
-        writeToId("reseau", "oui<br>"+jetons+" jetons");
-    else
-        writeToId("reseau", "non");
+        writeToId("typeclef", chaineClef(type));
+        writeToId("codeclef", code);
 
-    if (clehebergee==="1")
-        writeToId("clehebergee", "oui");
-    else
-        writeToId("clehebergee", "non");
-
-    writeToId("typeclef", chaineClef(type));
-    writeToId("codeclef", code);
-
-    showId("donnees");
+        showId("donnees");
+    } catch (error) {
+        console.error("Erreur lors de l'affichage des informations:", error);
+        writeToId("societe", "Impossible de lire les données de licence.");
+    }
 }
 
 function afficheInformationsSAV(Donnees) {
-    console.log(Donnees);
-    const {
-        AvecSAV,
-        BlocageTelechargement
-    } = JSON.parse(Donnees);
+    try {
+        const {
+            AvecSAV,
+            BlocageTelechargement
+        } = JSON.parse(Donnees);
 
-    if (AvecSAV === "1")
-        writeToId("sav", "SAV OK");
-    else
-        writeToId("sav", "sans SAV", true);
+        if (AvecSAV === "1")
+            writeToId("sav", "SAV OK");
+        else
+            writeToId("sav", "sans SAV", true);
 
-    if (BlocageTelechargement === "1")
-        writeToId("blocagetel", "bloqué", true);
-    else
-        writeToId("blocagetel", "non");
+        if (BlocageTelechargement === "1")
+            writeToId("blocagetel", "bloqué", true);
+        else
+            writeToId("blocagetel", "non");
+    } catch(error) {
+        console.error("Erreur lors de l'affichage des informations SAV:", error);
+        writeToId("sav", "Données SAV illisibles.");
+    }
 }
 
 async function renderText() {
-
-    /*
-    const textElement = document.getElementById('apptext');
-    const contactData = await client.data.get('contact');
-    const {
-      contact: { name }
-    } = contactData;
-
-    textElement.innerHTML = `Ticket is created by ${name}`;
-     */
     hideId("donnees");
-    await getTicketDetails();
-    await getLicenceDetails();
-    await getSAVDetails();
+    const ticketDetails = await getTicketDetails();
+
+    if (ticketDetails && ticketDetails.identifiant !== -1 && ticketDetails.licence) {
+        // On exécute les deux requêtes en parallèle pour gagner du temps
+        await Promise.all([
+            getLicenceDetails(ticketDetails),
+            getSAVDetails(ticketDetails)
+        ]);
+    }
+    
     client.instance.resize({ height: "400px" });
 }

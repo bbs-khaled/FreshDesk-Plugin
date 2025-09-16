@@ -1,0 +1,239 @@
+2025-09-16 14:43:06.327 +0200 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 14:43:06.337 +0200 [debug] (file.js) Error while requiring C:\Users\Formation\.fdk\configs.json: Cannot find module 'C:\Users\Formation\.fdk\configs.json'
+Require stack:
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\utils\file.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\configs.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\logger.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\index.js
+2025-09-16 14:43:06.337 +0200 [debug] (configs.js) loaded global configs as "{}"
+2025-09-16 14:43:06.337 +0200 [debug] (file.js) Error while requiring C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin\.fdk\configs.json: Cannot find module 'C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin\.fdk\configs.json'
+Require stack:
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\utils\file.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\configs.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\logger.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\index.js
+2025-09-16 14:43:06.337 +0200 [debug] (file.js) Error while requiring C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin\.fdk\configs.json: Cannot find module 'C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin\.fdk\configs.json'
+Require stack:
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\utils\file.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\configs.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\logger.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\index.js
+2025-09-16 14:43:06.337 +0200 [debug] (configs.js) loaded local configs as "{}"
+2025-09-16 14:43:06.337 +0200 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-16 14:43:06.337 +0200 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 14:43:06.338 +0200 [debug] (logger.js) Starting FDK in node v18.20.8 on win32
+2025-09-16 14:43:06.338 +0200 [debug] (sequelize.js) setting up sqilite at "C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/.fdk/store.sqlite"
+2025-09-16 14:43:06.338 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 14:43:06.338 +0200 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2025-09-16 14:43:06.342 +0200 [debug] (index.js) running with opts {}
+2025-09-16 14:43:06.723 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 14:43:06.755 +0200 [debug] (manifest.js) Reloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"engines":{"node":"18.19.0","fdk":"9.1.2"}}.
+2025-09-16 14:43:06.756 +0200 [debug] (manifest.js) Inferred db as features.
+2025-09-16 14:43:08.440 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 14:43:18.521 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\bigint-pivot.js"
+2025-09-16 14:43:18.571 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\entity-field-choice.js"
+2025-09-16 14:43:18.591 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\entity-field.js"
+2025-09-16 14:43:18.613 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\entity.js"
+2025-09-16 14:43:18.644 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\files.js"
+2025-09-16 14:43:18.680 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\oauth-details.js"
+2025-09-16 14:43:18.702 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\record.js"
+2025-09-16 14:43:18.807 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\string-pivot.js"
+2025-09-16 14:43:22.811 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.826 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.829 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.829 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.832 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.835 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.837 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.846 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.847 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.847 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.855 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.860 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.867 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.869 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.870 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:22.882 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 14:43:36.929 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 14:43:55.005 +0200 [debug] (validate.js) asked to skip the following validations, 
+2025-09-16 14:43:55.005 +0200 [debug] (validate.js) running validator actions
+2025-09-16 14:43:55.006 +0200 [debug] (validate.js) running validator requests
+2025-09-16 14:43:55.006 +0200 [debug] (requests.js) validating request template for "requestLicence"
+2025-09-16 14:43:55.006 +0200 [debug] (validate.js) running validator app-dir
+2025-09-16 14:43:55.009 +0200 [debug] (validate.js) running validator config-dir
+2025-09-16 14:43:55.009 +0200 [debug] (config-dir.js) Checking to see if C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/config/ exists.
+2025-09-16 14:43:55.009 +0200 [debug] (config-dir.js) Fetched the following config files iparams.json,requests.json
+2025-09-16 14:43:55.009 +0200 [debug] (validate.js) running validator custom-objects
+2025-09-16 14:43:55.009 +0200 [debug] (validate.js) running validator event
+2025-09-16 14:43:55.010 +0200 [debug] (validate.js) running validator iparam
+2025-09-16 14:43:55.016 +0200 [debug] (validate.js) running validator lint
+2025-09-16 14:43:55.016 +0200 [debug] (lint.js) passed fix flag: undefined
+2025-09-16 14:43:55.022 +0200 [debug] (lint.js) Running the following lints on the file app\scripts\app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2025-09-16 14:43:57.662 +0200 [debug] (validate.js) running validator manifest
+2025-09-16 14:43:57.662 +0200 [debug] (validate.js) skipping validator manifest-dependency
+2025-09-16 14:43:57.662 +0200 [debug] (validate.js) running validator oauth
+2025-09-16 14:43:57.662 +0200 [debug] (validate.js) skipping validator pkgsize
+2025-09-16 14:43:57.663 +0200 [debug] (validate.js) running validator schema
+2025-09-16 14:43:57.663 +0200 [debug] (validate.js) running validator version-check
+2025-09-16 14:43:57.666 +0200 [info] Minor Node.js mistmatch. App was developed in 18.19.0 and is being run in v18.20.8.
+2025-09-16 14:43:57.666 +0200 [info] Node.js version in manfiest is being updated to the current version.
+2025-09-16 14:43:57.677 +0200 [debug] (manifest.js) Reloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"engines":{"node":"18.20.8","fdk":"9.6.0"}}.
+2025-09-16 14:43:57.677 +0200 [debug] (manifest.js) Inferred db as features.
+2025-09-16 14:43:57.678 +0200 [debug] (validate.js) running validator app-settings
+2025-09-16 14:43:57.685 +0200 [debug] (requests.js) validating request template for "requestSAV"
+2025-09-16 14:43:57.726 +0200 [warn] Please ensure that the following are addressed for quick review process:
+2025-09-16 14:43:57.727 +0200 [warn] [33m‼[39m app\scripts\app.js::6: 'client' declared and assigned in different scopes. Possible asynchronous race condition.
+2025-09-16 14:43:57.728 +0200 [warn] 
+2025-09-16 14:43:57.729 +0200 [debug] (watcher.js) Preparing to watch the following files ./app,./config,./manifest.json
+2025-09-16 14:43:57.744 +0200 [debug] (data.js) Read {}
+2025-09-16 14:43:57.745 +0200 [debug] (custom-objects.js) to force or not? undefined
+2025-09-16 14:43:57.745 +0200 [debug] (custom-objects.js) beginning to re-sync db
+2025-09-16 14:43:58.368 +0200 [debug] (data.js) Read {}
+2025-09-16 14:43:58.369 +0200 [debug] (custom-objects.js) updated local store with latest entity hash
+2025-09-16 14:43:58.370 +0200 [debug] (run.js) migrate stored oauth configs from localstore to sqlite
+2025-09-16 14:43:58.370 +0200 [debug] (data.js) Read {}
+2025-09-16 14:43:58.371 +0200 [debug] (data.js) Read {}
+2025-09-16 14:43:58.371 +0200 [debug] (oauth.js) app without oauth configs, skipping oauth configs migration
+2025-09-16 14:43:58.371 +0200 [debug] (data.js) Read {}
+2025-09-16 14:43:58.373 +0200 [debug] (oauth.js) empty json, setting oauth migration flag to true
+2025-09-16 14:43:58.383 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:43:58.385 +0200 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2025-09-16 14:48:07.116 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:07.124 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:07.140 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:07.149 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:07.716 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:07.716 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:07.717 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:07.717 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:08.120 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:08.120 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:08.121 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:08.121 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:08.227 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:08.227 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:08.227 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:08.228 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:08.349 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:08.349 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:08.350 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:08.351 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:08.463 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:08.463 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:08.464 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:08.464 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:08.686 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:08.686 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:08.687 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:08.687 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:08.793 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:08.794 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:08.794 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:08.795 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:08.928 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:08.928 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:08.929 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:08.930 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:09.076 +0200 [debug] (iframe.js) Responding with contents of /index.html
+2025-09-16 14:48:09.296 +0200 [debug] (iframe.js) Responding with contents of /scripts/app.js
+2025-09-16 14:48:09.300 +0200 [debug] (coverage.js) Instrumenting C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin\app\scripts\app.js
+2025-09-16 14:48:15.174 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 14:48:51.383 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:51.384 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:51.387 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:51.390 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:51.879 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:51.879 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:51.882 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:51.884 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:52.235 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:52.236 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:52.237 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:52.238 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:52.342 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:52.343 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:52.343 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:52.343 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:52.466 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:52.467 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:52.467 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:52.468 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:52.576 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:52.576 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:52.577 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:52.577 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:52.783 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:52.784 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:52.784 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:52.785 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:52.891 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:52.892 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:52.892 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:52.893 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:53.004 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:48:53.004 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:48:53.005 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:48:53.006 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:48:53.050 +0200 [debug] (iframe.js) Responding with contents of /index.html
+2025-09-16 14:48:53.109 +0200 [debug] (iframe.js) Responding with contents of /scripts/app.js
+2025-09-16 14:48:53.115 +0200 [debug] (coverage.js) Instrumenting C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin\app\scripts\app.js
+2025-09-16 14:48:55.755 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 14:49:12.158 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:49:12.158 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:49:12.159 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:12.162 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:49:12.764 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:49:12.764 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:49:12.765 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:12.766 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:49:12.903 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:49:12.903 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:49:12.904 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:12.904 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:49:13.071 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:49:13.072 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:49:13.072 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:13.073 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:49:13.201 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:49:13.201 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:49:13.203 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:13.203 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:49:13.314 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:49:13.314 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:49:13.314 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:13.315 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:49:13.488 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:49:13.488 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:49:13.489 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:13.489 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:49:13.597 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:49:13.597 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:49:13.597 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:13.598 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:49:13.701 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 14:49:13.702 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 14:49:13.702 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:13.703 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 14:49:13.741 +0200 [debug] (iframe.js) Responding with contents of /index.html
+2025-09-16 14:49:13.817 +0200 [debug] (iframe.js) Responding with contents of /scripts/app.js
+2025-09-16 14:49:13.818 +0200 [debug] (coverage.js) Instrumenting C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin\app\scripts\app.js
+2025-09-16 14:49:16.736 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 14:49:32.994 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 14:49:33.031 +0200 [debug] (data-pipe.js) received call for route "request" with action "execute" and body {"action":"execute","data":{"context":{"s":2001,"l":450676344},"name":"requestLicence","isOAuth":true}}
+2025-09-16 14:49:33.187 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:33.188 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:33.189 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:33.189 +0200 [debug] (request.js) Obtained creds 
+2025-09-16 14:49:33.209 +0200 [debug] (request.js) Making request with options as {"method":"GET","url":"https://www.bbs-logiciels.com/commun/service/espaceclient/getFichierLicence.php?s=2001&l=450676344&clear=&j=","headers":{"Content-Type":"application/json"},"body":null,"maxAttempts":1,"retryDelay":1000,"timeout":15000,"skipHeaderSanitize":true}
+2025-09-16 14:49:33.347 +0200 [debug] (data-pipe.js) received call for route "request" with action "execute" and body {"action":"execute","data":{"context":{"s":2001,"l":450676344},"name":"requestSAV","isOAuth":true}}
+2025-09-16 14:49:33.349 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:33.350 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:33.351 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 14:49:33.351 +0200 [debug] (request.js) Obtained creds 
+2025-09-16 14:49:33.353 +0200 [debug] (request.js) Making request with options as {"method":"GET","url":"https://www.bbs-logiciels.com/commun/service/sav.php?s=2001&l=450676344","headers":{"Content-Type":"application/json"},"body":null,"maxAttempts":1,"retryDelay":1000,"timeout":15000,"skipHeaderSanitize":true}
+2025-09-16 14:49:33.885 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
+2025-09-16 14:49:33.888 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
+2025-09-16 14:49:34.011 +0200 [debug] (coverage.js) Writing coverage.

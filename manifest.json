@@ -9,13 +9,13 @@
         }
       },
       "requests": {
-        "requestLicence":{},
-        "requestSAV":{}
+        "requestLicence": {},
+        "requestSAV": {}
       }
     }
   },
   "engines": {
-    "node": "18.19.0",
-    "fdk": "9.1.2"
+    "node": "18.20.8",
+    "fdk": "9.6.0"
   }
 }
