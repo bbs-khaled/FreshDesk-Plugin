@@ -1,40 +1,15 @@
 {
-  "requestLicence": {
+  "fetchFromGoogleScript": {
     "schema": {
       "protocol": "https",
       "method": "GET",
-      "host": "www.bbs-logiciels.com",
-      "path": "/commun/service/espaceclient/getFichierLicence.php",
+      "host": "script.google.com",
+      "path": "/a/macros/bbs-slama.com/s/AKfycbzzyNBnLgF5ZPQ24VNEpM3DW-MbpNGd1egQlvrTsjhbmQJsWkLOTnv8FUV0WIMOzYci/exec",
       "query": {
         "s": "<%= context.s %>",
         "l": "<%= context.l %>",
-        "clear": "",
-        "j": ""
-      },
-      "headers": {
-        "Content-Type": "application/json"
+        "type": "<%= context.type %>"
       }
-    },
-    "options": {
-      "retryDelay": 1000
-    }
-  },
-  "requestSAV": {
-    "schema": {
-      "protocol": "https",
-      "method": "GET",
-      "host": "www.bbs-logiciels.com",
-      "path": "/commun/service/sav.php",
-      "query": {
-        "s": "<%= context.s %>",
-        "l": "<%= context.l %>"
-      },
-      "headers": {
-        "Content-Type": "application/json"
-      }
-    },
-    "options": {
-      "retryDelay": 1000
     }
   }
 }

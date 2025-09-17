@@ -66,20 +66,21 @@ async function getTicketDetails() {
 
 async function getLicenceDetails(details) {
     try {
-        const data = await client.request.invokeTemplate("requestLicence", {
+        const data = await client.request.invokeTemplate("fetchFromGoogleScript", {
             context: {
                 s: details.identifiant,
-                l: details.licence
+                l: details.licence,
+                type: "licence" // On dit au script ce qu'on veut
             }
         });
         displayStatus('success', 'Informations de licence récupérées');
+        // Le Google Script renvoie directement le bon JSON, on peut l'utiliser
         afficheInformations(data.response);
     } catch (error) {
-        // --- AMÉLIORATION DE LA GESTION D'ERREUR ---
         const status = error.status || 'inconnu';
-        const message = `Échec de la requête de licence (Code: ${status})`;
+        const message = `Échec requête Licence via proxy (Code: ${status})`;
         displayStatus('danger', message);
-        console.error("Erreur de requête (Licence):", error); // On log l'erreur complète pour le débogage
+        console.error("Erreur de requête (Proxy Licence):", error);
         writeToId("societe", `<span class="alert">${message}</span>`);
         showId("donnees");
     }
@@ -87,20 +88,21 @@ async function getLicenceDetails(details) {
 
 async function getSAVDetails(details) {
     try {
-        const data = await client.request.invokeTemplate("requestSAV", {
+        const data = await client.request.invokeTemplate("fetchFromGoogleScript", {
             context: {
                 s: details.identifiant,
-                l: details.licence
+                l: details.licence,
+                type: "sav" // On dit au script ce qu'on veut
             }
         });
         displayStatus('success', 'Informations SAV récupérées');
+        // Le Google Script renvoie directement le bon JSON
         afficheInformationsSAV(data.response);
     } catch (error) {
-        // --- AMÉLIORATION DE LA GESTION D'ERREUR ---
         const status = error.status || 'inconnu';
-        const message = `Échec de la requête SAV (Code: ${status})`;
+        const message = `Échec requête SAV via proxy (Code: ${status})`;
         displayStatus('danger', message);
-        console.error("Erreur de requête (SAV):", error); // On log l'erreur complète pour le débogage
+        console.error("Erreur de requête (Proxy SAV):", error);
         writeToId("sav", `<span class="alert">${message}</span>`);
     }
 }

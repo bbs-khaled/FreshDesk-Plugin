@@ -9,8 +9,7 @@
         }
       },
       "requests": {
-        "requestLicence": {},
-        "requestSAV": {}
+        "fetchFromGoogleScript": {}
       }
     }
   },
