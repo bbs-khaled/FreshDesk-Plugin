@@ -237,3 +237,748 @@ Quit the server with Control-C.
 2025-09-16 14:49:33.885 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
 2025-09-16 14:49:33.888 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
 2025-09-16 14:49:34.011 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 15:19:22.049 +0200 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 15:19:22.056 +0200 [debug] (file.js) Error while requiring C:\Users\Formation\.fdk\configs.json: Cannot find module 'C:\Users\Formation\.fdk\configs.json'
+Require stack:
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\utils\file.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\configs.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\logger.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\index.js
+2025-09-16 15:19:22.057 +0200 [debug] (configs.js) loaded global configs as "{}"
+2025-09-16 15:19:22.057 +0200 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-16 15:19:22.057 +0200 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-16 15:19:22.057 +0200 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 15:19:22.057 +0200 [debug] (logger.js) Starting FDK in node v18.20.8 on win32
+2025-09-16 15:19:22.057 +0200 [debug] (sequelize.js) setting up sqilite at "C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/.fdk/store.sqlite"
+2025-09-16 15:19:22.057 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 15:19:22.058 +0200 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2025-09-16 15:19:22.062 +0200 [debug] (index.js) running with opts {}
+2025-09-16 15:19:22.429 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 15:19:22.439 +0200 [debug] (manifest.js) Reloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"engines":{"node":"18.20.8","fdk":"9.6.0"}}.
+2025-09-16 15:19:22.440 +0200 [debug] (manifest.js) Inferred db as features.
+2025-09-16 15:19:22.566 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 15:19:23.719 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\bigint-pivot.js"
+2025-09-16 15:19:23.724 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\entity-field-choice.js"
+2025-09-16 15:19:23.725 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\entity-field.js"
+2025-09-16 15:19:23.727 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\entity.js"
+2025-09-16 15:19:23.729 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\files.js"
+2025-09-16 15:19:23.731 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\oauth-details.js"
+2025-09-16 15:19:23.732 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\record.js"
+2025-09-16 15:19:23.740 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\string-pivot.js"
+2025-09-16 15:19:24.192 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.205 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.208 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.208 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.211 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.214 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.215 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.223 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.223 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.224 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.229 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.233 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.238 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.239 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.239 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:24.247 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:19:26.258 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 15:19:28.348 +0200 [debug] (validate.js) asked to skip the following validations, 
+2025-09-16 15:19:28.350 +0200 [debug] (validate.js) running validator actions
+2025-09-16 15:19:28.350 +0200 [debug] (validate.js) running validator requests
+2025-09-16 15:19:28.350 +0200 [debug] (requests.js) validating request template for "requestLicence"
+2025-09-16 15:19:28.350 +0200 [debug] (validate.js) running validator app-dir
+2025-09-16 15:19:28.354 +0200 [debug] (validate.js) running validator config-dir
+2025-09-16 15:19:28.355 +0200 [debug] (config-dir.js) Checking to see if C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/config/ exists.
+2025-09-16 15:19:28.355 +0200 [debug] (config-dir.js) Fetched the following config files iparams.json,requests.json
+2025-09-16 15:19:28.355 +0200 [debug] (validate.js) running validator custom-objects
+2025-09-16 15:19:28.355 +0200 [debug] (validate.js) running validator event
+2025-09-16 15:19:28.355 +0200 [debug] (validate.js) running validator iparam
+2025-09-16 15:19:28.360 +0200 [debug] (validate.js) running validator lint
+2025-09-16 15:19:28.360 +0200 [debug] (lint.js) passed fix flag: undefined
+2025-09-16 15:19:28.370 +0200 [debug] (lint.js) Running the following lints on the file app\scripts\app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2025-09-16 15:19:28.631 +0200 [debug] (validate.js) running validator manifest
+2025-09-16 15:19:28.631 +0200 [debug] (validate.js) skipping validator manifest-dependency
+2025-09-16 15:19:28.631 +0200 [debug] (validate.js) running validator oauth
+2025-09-16 15:19:28.631 +0200 [debug] (validate.js) skipping validator pkgsize
+2025-09-16 15:19:28.631 +0200 [debug] (validate.js) running validator schema
+2025-09-16 15:19:28.631 +0200 [debug] (validate.js) running validator version-check
+2025-09-16 15:19:28.631 +0200 [debug] (validate.js) running validator app-settings
+2025-09-16 15:19:28.635 +0200 [debug] (requests.js) validating request template for "requestSAV"
+2025-09-16 15:19:28.642 +0200 [warn] Please ensure that the following are addressed for quick review process:
+2025-09-16 15:19:28.644 +0200 [warn] [33m‼[39m app\scripts\app.js::6: 'client' declared and assigned in different scopes. Possible asynchronous race condition.
+2025-09-16 15:19:28.645 +0200 [warn] 
+2025-09-16 15:19:28.647 +0200 [debug] (watcher.js) Preparing to watch the following files ./app,./config,./manifest.json
+2025-09-16 15:19:28.652 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:19:28.653 +0200 [debug] (custom-objects.js) to force or not? undefined
+2025-09-16 15:19:28.653 +0200 [debug] (custom-objects.js) beginning to re-sync db
+2025-09-16 15:19:29.371 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:19:29.371 +0200 [debug] (custom-objects.js) updated local store with latest entity hash
+2025-09-16 15:19:29.371 +0200 [debug] (run.js) migrate stored oauth configs from localstore to sqlite
+2025-09-16 15:19:29.421 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:19:29.422 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:19:29.422 +0200 [debug] (oauth.js) migration completed, returning
+2025-09-16 15:19:29.423 +0200 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2025-09-16 15:22:16.508 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 15:22:16.511 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 15:22:16.520 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:16.526 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 15:22:17.112 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 15:22:17.113 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 15:22:17.114 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:17.115 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 15:22:17.306 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 15:22:17.306 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 15:22:17.307 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:17.310 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 15:22:17.450 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 15:22:17.451 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 15:22:17.452 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:17.453 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 15:22:17.629 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 15:22:17.629 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 15:22:17.631 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:17.632 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 15:22:17.767 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 15:22:17.767 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 15:22:17.768 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:17.768 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 15:22:17.918 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 15:22:17.918 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 15:22:17.919 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:17.920 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 15:22:18.086 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 15:22:18.086 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 15:22:18.087 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:18.088 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 15:22:18.209 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 15:22:18.209 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 15:22:18.210 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:18.210 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 15:22:18.282 +0200 [debug] (iframe.js) Responding with contents of /index.html
+2025-09-16 15:22:18.407 +0200 [debug] (iframe.js) Responding with contents of /scripts/app.js
+2025-09-16 15:22:18.412 +0200 [debug] (coverage.js) Instrumenting C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin\app\scripts\app.js
+2025-09-16 15:22:23.323 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 15:22:23.437 +0200 [debug] (data-pipe.js) received call for route "request" with action "execute" and body {"action":"execute","data":{"context":{"s":2001,"l":450676344},"name":"requestSAV","isOAuth":true}}
+2025-09-16 15:22:23.473 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:23.474 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:23.476 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:23.477 +0200 [debug] (request.js) Obtained creds 
+2025-09-16 15:22:23.487 +0200 [debug] (request.js) Making request with options as {"method":"GET","url":"https://www.bbs-logiciels.com/commun/service/sav.php?s=2001&l=450676344","headers":{"Content-Type":"application/json"},"body":null,"maxAttempts":1,"retryDelay":1000,"timeout":15000,"skipHeaderSanitize":true}
+2025-09-16 15:22:23.629 +0200 [debug] (data-pipe.js) received call for route "request" with action "execute" and body {"action":"execute","data":{"context":{"s":2001,"l":450676344},"name":"requestLicence","isOAuth":true}}
+2025-09-16 15:22:23.636 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:23.639 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:23.645 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:22:23.645 +0200 [debug] (request.js) Obtained creds 
+2025-09-16 15:22:23.648 +0200 [debug] (request.js) Making request with options as {"method":"GET","url":"https://www.bbs-logiciels.com/commun/service/espaceclient/getFichierLicence.php?s=2001&l=450676344&clear=&j=","headers":{"Content-Type":"application/json"},"body":null,"maxAttempts":1,"retryDelay":1000,"timeout":15000,"skipHeaderSanitize":true}
+2025-09-16 15:22:23.668 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 15:22:24.419 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
+2025-09-16 15:22:24.423 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
+2025-09-16 15:22:25.654 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 15:25:13.892 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 15:25:20.813 +0200 [debug] (data-pipe.js) received call for route "request" with action "execute" and body {"action":"execute","data":{"context":{"s":2001,"l":450676344},"name":"requestLicence","isOAuth":true}}
+2025-09-16 15:25:20.868 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:25:20.869 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:25:20.874 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:25:20.874 +0200 [debug] (request.js) Obtained creds 
+2025-09-16 15:25:20.927 +0200 [debug] (request.js) Making request with options as {"method":"GET","url":"https://www.bbs-logiciels.com/commun/service/espaceclient/getFichierLicence.php?s=2001&l=450676344&clear=&j=","headers":{"Content-Type":"application/json"},"body":null,"maxAttempts":1,"retryDelay":1000,"timeout":15000,"skipHeaderSanitize":true}
+2025-09-16 15:25:20.991 +0200 [debug] (data-pipe.js) received call for route "request" with action "execute" and body {"action":"execute","data":{"context":{"s":2001,"l":450676344},"name":"requestSAV","isOAuth":true}}
+2025-09-16 15:25:20.995 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:25:20.996 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:25:20.996 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:25:20.996 +0200 [debug] (request.js) Obtained creds 
+2025-09-16 15:25:20.999 +0200 [debug] (request.js) Making request with options as {"method":"GET","url":"https://www.bbs-logiciels.com/commun/service/sav.php?s=2001&l=450676344","headers":{"Content-Type":"application/json"},"body":null,"maxAttempts":1,"retryDelay":1000,"timeout":15000,"skipHeaderSanitize":true}
+2025-09-16 15:25:21.336 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
+2025-09-16 15:25:21.428 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
+2025-09-16 15:25:21.648 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 15:28:29.986 +0200 [debug] (data-pipe.js) received call for route "request" with action "execute" and body {"action":"execute","data":{"context":{"s":2001,"l":450676344},"name":"requestLicence","isOAuth":true}}
+2025-09-16 15:28:29.991 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:28:29.991 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:28:29.992 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:28:29.992 +0200 [debug] (request.js) Obtained creds 
+2025-09-16 15:28:30.001 +0200 [debug] (request.js) Making request with options as {"method":"GET","url":"https://www.bbs-logiciels.com/commun/service/espaceclient/getFichierLicence.php?s=2001&l=450676344&clear=&j=","headers":{"Content-Type":"application/json"},"body":null,"maxAttempts":1,"retryDelay":1000,"timeout":15000,"skipHeaderSanitize":true}
+2025-09-16 15:28:30.028 +0200 [debug] (data-pipe.js) received call for route "request" with action "execute" and body {"action":"execute","data":{"context":{"s":2001,"l":450676344},"name":"requestSAV","isOAuth":true}}
+2025-09-16 15:28:30.030 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:28:30.031 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:28:30.031 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true}
+2025-09-16 15:28:30.032 +0200 [debug] (request.js) Obtained creds 
+2025-09-16 15:28:30.036 +0200 [debug] (request.js) Making request with options as {"method":"GET","url":"https://www.bbs-logiciels.com/commun/service/sav.php?s=2001&l=450676344","headers":{"Content-Type":"application/json"},"body":null,"maxAttempts":1,"retryDelay":1000,"timeout":15000,"skipHeaderSanitize":true}
+2025-09-16 15:28:30.455 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
+2025-09-16 15:28:30.535 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
+2025-09-16 15:28:31.656 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 15:56:05.622 +0200 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 15:56:05.634 +0200 [debug] (file.js) Error while requiring C:\Users\Formation\.fdk\configs.json: Cannot find module 'C:\Users\Formation\.fdk\configs.json'
+Require stack:
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\utils\file.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\configs.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\logger.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\index.js
+2025-09-16 15:56:05.634 +0200 [debug] (configs.js) loaded global configs as "{}"
+2025-09-16 15:56:05.634 +0200 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-16 15:56:05.634 +0200 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-16 15:56:05.634 +0200 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 15:56:05.634 +0200 [debug] (logger.js) Starting FDK in node v18.20.8 on win32
+2025-09-16 15:56:05.634 +0200 [debug] (sequelize.js) setting up sqilite at "C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/.fdk/store.sqlite"
+2025-09-16 15:56:05.635 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 15:56:05.635 +0200 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2025-09-16 15:56:05.638 +0200 [debug] (index.js) running with opts {}
+2025-09-16 15:56:05.693 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 15:56:05.699 +0200 [debug] (manifest.js) Reloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"engines":{"node":"18.20.8","fdk":"9.6.0"}}.
+2025-09-16 15:56:05.701 +0200 [debug] (manifest.js) Inferred db as features.
+2025-09-16 15:56:05.703 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 15:56:08.548 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.561 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.563 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.563 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.566 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.569 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.571 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.578 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.579 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.579 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.584 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.588 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.596 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.597 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.597 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:08.601 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 15:56:09.976 +0200 [debug] (validate.js) asked to skip the following validations, 
+2025-09-16 15:56:09.976 +0200 [debug] (validate.js) running validator actions
+2025-09-16 15:56:09.976 +0200 [debug] (validate.js) running validator requests
+2025-09-16 15:56:09.976 +0200 [debug] (requests.js) validating request template for "requestLicence"
+2025-09-16 15:56:09.977 +0200 [debug] (validate.js) running validator app-dir
+2025-09-16 15:56:09.979 +0200 [debug] (validate.js) running validator config-dir
+2025-09-16 15:56:09.979 +0200 [debug] (config-dir.js) Checking to see if C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/config/ exists.
+2025-09-16 15:56:09.979 +0200 [debug] (config-dir.js) Fetched the following config files iparams.json,requests.json
+2025-09-16 15:56:09.979 +0200 [debug] (validate.js) running validator custom-objects
+2025-09-16 15:56:09.979 +0200 [debug] (validate.js) running validator event
+2025-09-16 15:56:09.979 +0200 [debug] (validate.js) running validator iparam
+2025-09-16 15:56:09.983 +0200 [debug] (validate.js) running validator lint
+2025-09-16 15:56:09.984 +0200 [debug] (lint.js) passed fix flag: undefined
+2025-09-16 15:56:09.987 +0200 [debug] (lint.js) Running the following lints on the file app\scripts\app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2025-09-16 15:56:10.205 +0200 [debug] (validate.js) running validator manifest
+2025-09-16 15:56:10.205 +0200 [debug] (validate.js) running validator manifest-dependency
+2025-09-16 15:56:10.206 +0200 [debug] (validate.js) running validator oauth
+2025-09-16 15:56:10.206 +0200 [debug] (validate.js) skipping validator pkgsize
+2025-09-16 15:56:10.206 +0200 [debug] (validate.js) skipping validator schema
+2025-09-16 15:56:10.206 +0200 [debug] (validate.js) running validator version-check
+2025-09-16 15:56:10.206 +0200 [debug] (validate.js) running validator app-settings
+2025-09-16 15:56:10.212 +0200 [debug] (requests.js) validating request template for "requestSAV"
+2025-09-16 15:56:10.219 +0200 [warn] Please ensure that the following are addressed for quick review process:
+2025-09-16 15:56:10.221 +0200 [warn] [33m‼[39m app\scripts\app.js::6: 'client' declared and assigned in different scopes. Possible asynchronous race condition.
+2025-09-16 15:56:10.221 +0200 [warn] 
+2025-09-16 15:56:10.222 +0200 [info] ================================================================
+2025-09-16 15:56:10.222 +0200 [info] |                      Validation Summary                      |
+2025-09-16 15:56:10.222 +0200 [info] ================================================================
+2025-09-16 15:56:10.223 +0200 [info] | [1;31mTotal Platform Errors: 0[0m                                     |
+2025-09-16 15:56:10.223 +0200 [info] | [1;31mTotal Lint Errors    : 0[0m                                     |
+2025-09-16 15:56:10.223 +0200 [info] | [1;33mTotal Warnings       : 1[0m                                     |
+2025-09-16 15:56:10.224 +0200 [info] ================================================================
+
+2025-09-16 15:56:10.233 +0200 [info] [32m√[39m Validation Successful
+2025-09-16 15:56:10.316 +0200 [debug] (report.js) Generating hash for report.json file
+2025-09-16 16:03:13.367 +0200 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 16:03:13.376 +0200 [debug] (file.js) Error while requiring C:\Users\Formation\.fdk\configs.json: Cannot find module 'C:\Users\Formation\.fdk\configs.json'
+Require stack:
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\utils\file.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\configs.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\logger.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\index.js
+2025-09-16 16:03:13.376 +0200 [debug] (configs.js) loaded global configs as "{}"
+2025-09-16 16:03:13.377 +0200 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-16 16:03:13.377 +0200 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-16 16:03:13.377 +0200 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 16:03:13.377 +0200 [debug] (logger.js) Starting FDK in node v18.20.8 on win32
+2025-09-16 16:03:13.377 +0200 [debug] (sequelize.js) setting up sqilite at "C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/.fdk/store.sqlite"
+2025-09-16 16:03:13.377 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 16:03:13.378 +0200 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2025-09-16 16:03:13.383 +0200 [debug] (index.js) running with opts {}
+2025-09-16 16:03:13.634 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 16:03:13.643 +0200 [debug] (manifest.js) Reloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"engines":{"node":"18.20.8","fdk":"9.6.0"}}.
+2025-09-16 16:03:13.644 +0200 [debug] (manifest.js) Inferred db as features.
+2025-09-16 16:03:13.646 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 16:03:16.043 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.057 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.059 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.060 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.066 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.069 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.070 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.079 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.080 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.080 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.085 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.088 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.094 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.096 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.096 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:16.100 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:03:17.635 +0200 [debug] (pack.js) 'pack' called with {"1":true}
+2025-09-16 16:03:17.635 +0200 [debug] (validate.js) asked to skip the following validations, 
+2025-09-16 16:03:17.636 +0200 [debug] (validate.js) running validator actions
+2025-09-16 16:03:17.636 +0200 [debug] (validate.js) running validator requests
+2025-09-16 16:03:17.636 +0200 [debug] (requests.js) validating request template for "requestLicence"
+2025-09-16 16:03:17.636 +0200 [debug] (validate.js) running validator app-dir
+2025-09-16 16:03:17.640 +0200 [debug] (validate.js) running validator config-dir
+2025-09-16 16:03:17.640 +0200 [debug] (config-dir.js) Checking to see if C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/config/ exists.
+2025-09-16 16:03:17.640 +0200 [debug] (config-dir.js) Fetched the following config files iparams.json,requests.json
+2025-09-16 16:03:17.640 +0200 [debug] (validate.js) running validator custom-objects
+2025-09-16 16:03:17.641 +0200 [debug] (validate.js) running validator event
+2025-09-16 16:03:17.641 +0200 [debug] (validate.js) running validator iparam
+2025-09-16 16:03:17.645 +0200 [debug] (validate.js) running validator lint
+2025-09-16 16:03:17.645 +0200 [debug] (lint.js) passed fix flag: undefined
+2025-09-16 16:03:17.649 +0200 [debug] (lint.js) Running the following lints on the file app\scripts\app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2025-09-16 16:03:17.874 +0200 [debug] (validate.js) running validator manifest
+2025-09-16 16:03:17.874 +0200 [debug] (validate.js) running validator manifest-dependency
+2025-09-16 16:03:17.875 +0200 [debug] (validate.js) running validator oauth
+2025-09-16 16:03:17.875 +0200 [debug] (validate.js) skipping validator pkgsize
+2025-09-16 16:03:17.875 +0200 [debug] (validate.js) skipping validator schema
+2025-09-16 16:03:17.875 +0200 [debug] (validate.js) running validator version-check
+2025-09-16 16:03:17.875 +0200 [debug] (validate.js) running validator app-settings
+2025-09-16 16:03:17.880 +0200 [debug] (requests.js) validating request template for "requestSAV"
+2025-09-16 16:03:17.891 +0200 [warn] Please ensure that the following are addressed for quick review process:
+2025-09-16 16:03:17.892 +0200 [warn] [33m‼[39m app\scripts\app.js::6: 'client' declared and assigned in different scopes. Possible asynchronous race condition.
+2025-09-16 16:03:17.893 +0200 [warn] 
+2025-09-16 16:03:17.895 +0200 [info] App being packed in Node v18.20.8 using FDK 9.6.0
+2025-09-16 16:03:17.913 +0200 [debug] (report.js) Generating hash for report.json file
+2025-09-16 16:03:17.914 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:03:17.914 +0200 [debug] (report.js) Comparing the stored hash with report.json file hash
+2025-09-16 16:03:17.916 +0200 [info] 
+Code coverage has been skipped. Skipping code coverage may result in your app being rejected by the Freshworks Marketplace. Ensure at least 80% coverage before final submission.
+
+2025-09-16 16:03:17.937 +0200 [debug] (pack.js) Cannot find './visitor-app' directory while packing.
+2025-09-16 16:03:17.937 +0200 [debug] (pack.js) Cannot find './src' directory while packing.
+2025-09-16 16:03:17.938 +0200 [debug] (pack.js) Cannot find './server' directory while packing.
+2025-09-16 16:03:17.951 +0200 [debug] (file.js) Computing digest for app\index.html,app\scripts\app.js,app\styles\images\icon.svg,app\styles\style.css,manifest.json.
+2025-09-16 16:03:17.955 +0200 [debug] (pack.js) Packing ./app\index.html
+2025-09-16 16:03:17.961 +0200 [debug] (pack.js) Packing ./app\scripts\app.js
+2025-09-16 16:03:17.968 +0200 [debug] (pack.js) Packing ./app\styles\images\icon.svg
+2025-09-16 16:03:17.969 +0200 [debug] (pack.js) Packing ./app\styles\style.css
+2025-09-16 16:03:17.969 +0200 [debug] (pack.js) Packing ./config\iparams.json
+2025-09-16 16:03:17.969 +0200 [debug] (pack.js) Packing ./config\requests.json
+2025-09-16 16:03:17.969 +0200 [debug] (pack.js) Packing ./manifest.json
+2025-09-16 16:03:17.969 +0200 [debug] (pack.js) Packing ./.report.json
+2025-09-16 16:03:17.969 +0200 [debug] (pack.js) Packing ./README.md
+2025-09-16 16:03:17.969 +0200 [debug] (pack.js) Packing ./digest.md5
+2025-09-16 16:03:18.145 +0200 [debug] (validate.js) asked to skip the following validations, 
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator actions
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator requests
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator app-dir
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator config-dir
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator custom-objects
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator event
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator iparam
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator lint
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator manifest
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator manifest-dependency
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator oauth
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) running validator pkgsize
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator schema
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator version-check
+2025-09-16 16:03:18.146 +0200 [debug] (validate.js) skipping validator app-settings
+2025-09-16 16:03:18.147 +0200 [info] App packed successfully at \dist\FreshDesk-Plugin.zip
+2025-09-16 16:03:18.149 +0200 [info] Upload this file to the marketplace by following the instructions at https://developers.freshworks.com/docs/app-sdk/v3.0/common/app-submission-process/
+2025-09-16 16:03:18.149 +0200 [debug] (file.js) Deleting digest.
+2025-09-16 16:03:18.207 +0200 [debug] (report.js) Generating hash for report.json file
+2025-09-16 16:47:59.396 +0200 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 16:47:59.405 +0200 [debug] (file.js) Error while requiring C:\Users\Formation\.fdk\configs.json: Cannot find module 'C:\Users\Formation\.fdk\configs.json'
+Require stack:
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\utils\file.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\configs.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\logger.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\index.js
+2025-09-16 16:47:59.406 +0200 [debug] (configs.js) loaded global configs as "{}"
+2025-09-16 16:47:59.406 +0200 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-16 16:47:59.406 +0200 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-16 16:47:59.407 +0200 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 16:47:59.407 +0200 [debug] (logger.js) Starting FDK in node v18.20.8 on win32
+2025-09-16 16:47:59.407 +0200 [debug] (sequelize.js) setting up sqilite at "C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/.fdk/store.sqlite"
+2025-09-16 16:47:59.407 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 16:47:59.408 +0200 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2025-09-16 16:47:59.415 +0200 [debug] (index.js) running with opts {}
+2025-09-16 16:48:00.091 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 16:48:00.104 +0200 [debug] (manifest.js) Reloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"engines":{"node":"18.20.8","fdk":"9.6.0"}}.
+2025-09-16 16:48:00.105 +0200 [debug] (manifest.js) Inferred db as features.
+2025-09-16 16:48:00.250 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 16:48:01.218 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\bigint-pivot.js"
+2025-09-16 16:48:01.222 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\entity-field-choice.js"
+2025-09-16 16:48:01.224 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\entity-field.js"
+2025-09-16 16:48:01.228 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\entity.js"
+2025-09-16 16:48:01.230 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\files.js"
+2025-09-16 16:48:01.232 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\oauth-details.js"
+2025-09-16 16:48:01.234 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\record.js"
+2025-09-16 16:48:01.240 +0200 [debug] (index.js) loading model at "C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\models\string-pivot.js"
+2025-09-16 16:48:01.539 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.552 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.554 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.555 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.558 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.561 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.562 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.572 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.573 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.573 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.579 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.583 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.589 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.589 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.593 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:01.599 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:48:03.071 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 16:48:06.630 +0200 [debug] (validate.js) asked to skip the following validations, 
+2025-09-16 16:48:06.630 +0200 [debug] (validate.js) running validator actions
+2025-09-16 16:48:06.631 +0200 [debug] (validate.js) running validator requests
+2025-09-16 16:48:06.631 +0200 [debug] (requests.js) validating request template for "requestLicence"
+2025-09-16 16:48:06.631 +0200 [debug] (validate.js) running validator app-dir
+2025-09-16 16:48:06.634 +0200 [debug] (validate.js) running validator config-dir
+2025-09-16 16:48:06.634 +0200 [debug] (config-dir.js) Checking to see if C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/config/ exists.
+2025-09-16 16:48:06.635 +0200 [debug] (config-dir.js) Fetched the following config files iparams.json,requests.json
+2025-09-16 16:48:06.636 +0200 [debug] (validate.js) running validator custom-objects
+2025-09-16 16:48:06.636 +0200 [debug] (validate.js) running validator event
+2025-09-16 16:48:06.636 +0200 [debug] (validate.js) running validator iparam
+2025-09-16 16:48:06.639 +0200 [debug] (validate.js) running validator lint
+2025-09-16 16:48:06.640 +0200 [debug] (lint.js) passed fix flag: undefined
+2025-09-16 16:48:06.645 +0200 [debug] (lint.js) Running the following lints on the file app\scripts\app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2025-09-16 16:48:06.896 +0200 [debug] (validate.js) running validator manifest
+2025-09-16 16:48:06.897 +0200 [debug] (validate.js) skipping validator manifest-dependency
+2025-09-16 16:48:06.897 +0200 [debug] (validate.js) running validator oauth
+2025-09-16 16:48:06.898 +0200 [debug] (validate.js) skipping validator pkgsize
+2025-09-16 16:48:06.898 +0200 [debug] (validate.js) running validator schema
+2025-09-16 16:48:06.898 +0200 [debug] (validate.js) running validator version-check
+2025-09-16 16:48:06.898 +0200 [debug] (validate.js) running validator app-settings
+2025-09-16 16:48:06.909 +0200 [debug] (requests.js) validating request template for "requestSAV"
+2025-09-16 16:48:06.932 +0200 [warn] Please ensure that the following are addressed for quick review process:
+2025-09-16 16:48:06.940 +0200 [warn] [33m‼[39m app\scripts\app.js::6: 'client' declared and assigned in different scopes. Possible asynchronous race condition.
+2025-09-16 16:48:06.941 +0200 [warn] 
+2025-09-16 16:48:06.945 +0200 [debug] (watcher.js) Preparing to watch the following files ./app,./config,./manifest.json
+2025-09-16 16:48:06.963 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:06.964 +0200 [debug] (custom-objects.js) to force or not? undefined
+2025-09-16 16:48:06.964 +0200 [debug] (custom-objects.js) beginning to re-sync db
+2025-09-16 16:48:07.615 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:07.616 +0200 [debug] (custom-objects.js) updated local store with latest entity hash
+2025-09-16 16:48:07.616 +0200 [debug] (run.js) migrate stored oauth configs from localstore to sqlite
+2025-09-16 16:48:07.763 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:07.765 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:07.765 +0200 [debug] (oauth.js) migration completed, returning
+2025-09-16 16:48:07.767 +0200 [info] Starting local testing server at http://*:10001/    
+Append 'dev=true' to your Freshdesk account URL to start testing    
+e.g. https://domain.freshdesk.com/a/tickets/1?dev=true    
+Quit the server with Control-C.
+2025-09-16 16:48:26.025 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 16:48:26.025 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 16:48:26.026 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:26.027 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 16:48:27.179 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 16:48:27.180 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 16:48:27.181 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:27.182 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 16:48:27.493 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 16:48:27.493 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 16:48:27.494 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:27.494 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 16:48:27.629 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 16:48:27.629 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 16:48:27.630 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:27.630 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 16:48:27.776 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 16:48:27.777 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 16:48:27.777 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:27.778 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 16:48:27.909 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 16:48:27.909 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 16:48:27.909 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:27.910 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 16:48:28.151 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 16:48:28.151 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 16:48:28.152 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:28.153 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 16:48:28.332 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 16:48:28.332 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 16:48:28.333 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:28.334 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 16:48:28.451 +0200 [debug] (oauth.js) Fetching oauth configs of product : freshdesk
+2025-09-16 16:48:28.451 +0200 [debug] (iframe.js) Checking is authorized for all oauths 
+2025-09-16 16:48:28.452 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:28.452 +0200 [debug] (iframe.js) Responding to product with {"configs":{},"displayName":"FreshDesk-Plugin","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"agent/index.html","icon":"agent/styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"modules":{},"features":["db"],"actions":false,"omni":false,"products":["freshdesk"],"platform":"2.3","isInstall":false,"oauth_configs_list":[],"isAuthorized":true,"v2":[]}
+2025-09-16 16:48:28.531 +0200 [debug] (iframe.js) Responding with contents of /index.html
+2025-09-16 16:48:28.629 +0200 [debug] (iframe.js) Responding with contents of /scripts/app.js
+2025-09-16 16:48:28.631 +0200 [debug] (coverage.js) Instrumenting C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin\app\scripts\app.js
+2025-09-16 16:48:32.933 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 16:48:33.031 +0200 [debug] (data-pipe.js) received call for route "request" with action "execute" and body {"action":"execute","data":{"context":{"s":2001,"l":450676344},"name":"requestLicence","isOAuth":true}}
+2025-09-16 16:48:33.063 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:33.067 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:33.069 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:33.069 +0200 [debug] (request.js) Obtained creds 
+2025-09-16 16:48:33.090 +0200 [debug] (request.js) Making request with options as {"method":"GET","url":"https://www.bbs-logiciels.com/commun/service/espaceclient/getFichierLicence.php?s=2001&l=450676344&clear=&j=","headers":{"Content-Type":"application/json"},"body":null,"maxAttempts":1,"retryDelay":1000,"timeout":15000,"skipHeaderSanitize":true}
+2025-09-16 16:48:33.113 +0200 [debug] (data-pipe.js) received call for route "request" with action "execute" and body {"action":"execute","data":{"context":{"s":2001,"l":450676344},"name":"requestSAV","isOAuth":true}}
+2025-09-16 16:48:33.123 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:33.124 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:33.125 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"71e5388eeb8ca9f41c8101379f7bee803c3bfce412c8f5ea26eb27dc601222f5"}
+2025-09-16 16:48:33.125 +0200 [debug] (request.js) Obtained creds 
+2025-09-16 16:48:33.129 +0200 [debug] (request.js) Making request with options as {"method":"GET","url":"https://www.bbs-logiciels.com/commun/service/sav.php?s=2001&l=450676344","headers":{"Content-Type":"application/json"},"body":null,"maxAttempts":1,"retryDelay":1000,"timeout":15000,"skipHeaderSanitize":true}
+2025-09-16 16:48:33.305 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 16:48:34.131 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
+2025-09-16 16:48:34.167 +0200 [debug] (request.js) Looking for "text/html" in application/json,application/xml,text/html,text/xml,application/jsonp,text/plain,application/javascript,application/vnd.api+json
+2025-09-16 16:48:35.169 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 16:51:37.627 +0200 [debug] (manifest.js) Reloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"whitelisted-domains":["https://www.bbs-logiciels.com"],"engines":{"node":"18.20.8","fdk":"9.6.0"}}.
+2025-09-16 16:51:37.648 +0200 [debug] (manifest.js) Inferred db as features.
+2025-09-16 16:51:37.668 +0200 [debug] (watcher.js) Broadcasted "{"file":"manifest.json"}" to all listeners.
+2025-09-16 16:51:37.918 +0200 [debug] (iframe.js) Responding with contents of /index.html
+2025-09-16 16:51:38.170 +0200 [debug] (iframe.js) Responding with contents of /scripts/app.js
+2025-09-16 16:51:38.172 +0200 [debug] (coverage.js) Instrumenting C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin\app\scripts\app.js
+2025-09-16 16:51:40.764 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 16:52:01.951 +0200 [debug] (manifest.js) Reloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"whitelisted-domains":["https://www.bbs-logiciels.com"],"engines":{"node":"18.20.8","fdk":"9.6.0"}}.
+2025-09-16 16:52:01.952 +0200 [debug] (manifest.js) Inferred db as features.
+2025-09-16 16:52:01.955 +0200 [debug] (watcher.js) Broadcasted "{"file":"manifest.json"}" to all listeners.
+2025-09-16 16:52:01.974 +0200 [debug] (iframe.js) Responding with contents of /index.html
+2025-09-16 16:52:02.024 +0200 [debug] (iframe.js) Responding with contents of /scripts/app.js
+2025-09-16 16:52:02.025 +0200 [debug] (coverage.js) Instrumenting C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin\app\scripts\app.js
+2025-09-16 16:52:04.746 +0200 [debug] (coverage.js) Writing coverage.
+2025-09-16 16:52:26.116 +0200 [info] 
+NOTE: We recommend a coverage of 80% for apps that are to be published in the public marketplace.
+2025-09-16 16:52:35.104 +0200 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 16:52:35.116 +0200 [debug] (file.js) Error while requiring C:\Users\Formation\.fdk\configs.json: Cannot find module 'C:\Users\Formation\.fdk\configs.json'
+Require stack:
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\utils\file.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\configs.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\logger.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\index.js
+2025-09-16 16:52:35.116 +0200 [debug] (configs.js) loaded global configs as "{}"
+2025-09-16 16:52:35.116 +0200 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-16 16:52:35.116 +0200 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-16 16:52:35.117 +0200 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-16 16:52:35.117 +0200 [debug] (logger.js) Starting FDK in node v18.20.8 on win32
+2025-09-16 16:52:35.117 +0200 [debug] (sequelize.js) setting up sqilite at "C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/.fdk/store.sqlite"
+2025-09-16 16:52:35.117 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 16:52:35.117 +0200 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2025-09-16 16:52:35.121 +0200 [debug] (index.js) running with opts {}
+2025-09-16 16:52:35.171 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 16:52:35.179 +0200 [debug] (manifest.js) Reloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"whitelisted-domains":["https://www.bbs-logiciels.com"],"engines":{"node":"18.20.8","fdk":"9.6.0"}}.
+2025-09-16 16:52:35.179 +0200 [debug] (manifest.js) Inferred db as features.
+2025-09-16 16:52:35.181 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-16 16:52:37.327 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.340 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.343 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.345 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.349 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.353 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.355 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.370 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.371 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.372 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.382 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.389 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.404 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.406 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.407 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:37.414 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-16 16:52:38.525 +0200 [debug] (validate.js) asked to skip the following validations, 
+2025-09-16 16:52:38.526 +0200 [debug] (validate.js) running validator actions
+2025-09-16 16:52:38.526 +0200 [debug] (validate.js) running validator requests
+2025-09-16 16:52:38.526 +0200 [debug] (requests.js) validating request template for "requestLicence"
+2025-09-16 16:52:38.526 +0200 [debug] (validate.js) running validator app-dir
+2025-09-16 16:52:38.527 +0200 [debug] (validate.js) running validator config-dir
+2025-09-16 16:52:38.527 +0200 [debug] (config-dir.js) Checking to see if C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/config/ exists.
+2025-09-16 16:52:38.528 +0200 [debug] (config-dir.js) Fetched the following config files iparams.json,requests.json
+2025-09-16 16:52:38.528 +0200 [debug] (validate.js) running validator custom-objects
+2025-09-16 16:52:38.528 +0200 [debug] (validate.js) running validator event
+2025-09-16 16:52:38.528 +0200 [debug] (validate.js) running validator iparam
+2025-09-16 16:52:38.531 +0200 [debug] (validate.js) running validator lint
+2025-09-16 16:52:38.531 +0200 [debug] (lint.js) passed fix flag: undefined
+2025-09-16 16:52:38.533 +0200 [debug] (lint.js) Running the following lints on the file app\scripts\app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2025-09-16 16:52:38.734 +0200 [debug] (validate.js) running validator manifest
+2025-09-16 16:52:38.734 +0200 [debug] (validate.js) running validator manifest-dependency
+2025-09-16 16:52:38.735 +0200 [debug] (validate.js) running validator oauth
+2025-09-16 16:52:38.735 +0200 [debug] (validate.js) skipping validator pkgsize
+2025-09-16 16:52:38.735 +0200 [debug] (validate.js) skipping validator schema
+2025-09-16 16:52:38.735 +0200 [debug] (validate.js) running validator version-check
+2025-09-16 16:52:38.735 +0200 [debug] (validate.js) running validator app-settings
+2025-09-16 16:52:38.739 +0200 [debug] (requests.js) validating request template for "requestSAV"
+2025-09-16 16:52:38.752 +0200 [error] Validation failed due to the following issue(s):
+2025-09-16 16:52:38.754 +0200 [error] Platform errors:
+2025-09-16 16:52:38.765 +0200 [error] [31m×[39m "whitelisted-domains" has been deprecated, please refer to https://developers.freshdesk.com/v2/docs/migration-overview/#latest_platform_version_migration for more details
+2025-09-16 16:52:38.766 +0200 [error] 
+2025-09-16 16:52:38.766 +0200 [error] 
+2025-09-16 16:52:38.767 +0200 [warn] Please ensure that the following are addressed for quick review process:
+2025-09-16 16:52:38.767 +0200 [warn] [33m‼[39m app\scripts\app.js::6: 'client' declared and assigned in different scopes. Possible asynchronous race condition.
+2025-09-16 16:52:38.768 +0200 [warn] 
+2025-09-16 16:52:38.770 +0200 [info] ================================================================
+2025-09-16 16:52:38.770 +0200 [info] |                      Validation Summary                      |
+2025-09-16 16:52:38.771 +0200 [info] ================================================================
+2025-09-16 16:52:38.772 +0200 [info] | [1;31mTotal Platform Errors: 1[0m                                     |
+2025-09-16 16:52:38.773 +0200 [info] | [1;31mTotal Lint Errors    : 0[0m                                     |
+2025-09-16 16:52:38.773 +0200 [info] | [1;33mTotal Warnings       : 1[0m                                     |
+2025-09-16 16:52:38.773 +0200 [info] ================================================================
+
+2025-09-16 16:52:38.774 +0200 [info] [32m√[39m Validation Successful
+2025-09-16 16:52:38.814 +0200 [debug] (report.js) Generating hash for report.json file
+2025-09-17 09:25:41.565 +0200 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-17 09:25:41.581 +0200 [debug] (file.js) Error while requiring C:\Users\Formation\.fdk\configs.json: Cannot find module 'C:\Users\Formation\.fdk\configs.json'
+Require stack:
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\utils\file.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\configs.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\logger.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\index.js
+2025-09-17 09:25:41.582 +0200 [debug] (configs.js) loaded global configs as "{}"
+2025-09-17 09:25:41.582 +0200 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-17 09:25:41.582 +0200 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-17 09:25:41.582 +0200 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-17 09:25:41.582 +0200 [debug] (logger.js) Starting FDK in node v18.20.8 on win32
+2025-09-17 09:25:41.582 +0200 [debug] (sequelize.js) setting up sqilite at "C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/.fdk/store.sqlite"
+2025-09-17 09:25:41.582 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-17 09:25:41.583 +0200 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2025-09-17 09:25:41.590 +0200 [debug] (index.js) running with opts {}
+2025-09-17 09:25:44.797 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-17 09:25:44.849 +0200 [debug] (manifest.js) Reloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"engines":{"node":"18.20.8","fdk":"9.6.0"}}.
+2025-09-17 09:25:44.854 +0200 [debug] (manifest.js) Inferred db as features.
+2025-09-17 09:25:44.865 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-17 09:26:26.148 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.172 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.175 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.176 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.181 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.184 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.187 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.201 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.202 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.203 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.209 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.217 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.224 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.226 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.227 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:26.233 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:26:40.939 +0200 [debug] (pack.js) 'pack' called with {"1":true}
+2025-09-17 09:26:40.940 +0200 [debug] (validate.js) asked to skip the following validations, 
+2025-09-17 09:26:40.942 +0200 [debug] (validate.js) running validator actions
+2025-09-17 09:26:40.944 +0200 [debug] (validate.js) running validator requests
+2025-09-17 09:26:40.944 +0200 [debug] (requests.js) validating request template for "requestLicence"
+2025-09-17 09:26:40.945 +0200 [debug] (validate.js) running validator app-dir
+2025-09-17 09:26:40.951 +0200 [debug] (validate.js) running validator config-dir
+2025-09-17 09:26:40.951 +0200 [debug] (config-dir.js) Checking to see if C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/config/ exists.
+2025-09-17 09:26:40.952 +0200 [debug] (config-dir.js) Fetched the following config files iparams.json,requests.json
+2025-09-17 09:26:40.952 +0200 [debug] (validate.js) running validator custom-objects
+2025-09-17 09:26:40.953 +0200 [debug] (validate.js) running validator event
+2025-09-17 09:26:40.953 +0200 [debug] (validate.js) running validator iparam
+2025-09-17 09:26:40.961 +0200 [debug] (validate.js) running validator lint
+2025-09-17 09:26:40.961 +0200 [debug] (lint.js) passed fix flag: undefined
+2025-09-17 09:26:41.000 +0200 [debug] (lint.js) Running the following lints on the file app\scripts\app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2025-09-17 09:26:41.097 +0200 [debug] (validate.js) running validator manifest
+2025-09-17 09:26:41.097 +0200 [debug] (validate.js) running validator manifest-dependency
+2025-09-17 09:26:41.098 +0200 [debug] (validate.js) running validator oauth
+2025-09-17 09:26:41.098 +0200 [debug] (validate.js) skipping validator pkgsize
+2025-09-17 09:26:41.098 +0200 [debug] (validate.js) skipping validator schema
+2025-09-17 09:26:41.098 +0200 [debug] (validate.js) running validator version-check
+2025-09-17 09:26:41.099 +0200 [debug] (validate.js) running validator app-settings
+2025-09-17 09:26:41.110 +0200 [debug] (requests.js) validating request template for "requestSAV"
+2025-09-17 09:29:37.155 +0200 [error] Packing failed due to the following issue(s):
+2025-09-17 09:29:37.182 +0200 [error] 
+2025-09-17 09:29:37.183 +0200 [error] Lint errors:
+2025-09-17 09:29:37.186 +0200 [error] [31m×[39m app\scripts\app.js::247: Parsing error: Identifier 'client' has already been declared
+2025-09-17 09:29:37.186 +0200 [error] 
+2025-09-17 09:29:37.440 +0200 [debug] (report.js) Generating hash for report.json file
+2025-09-17 09:30:16.423 +0200 [debug] (configs.js) loaded default configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-17 09:30:16.432 +0200 [debug] (file.js) Error while requiring C:\Users\Formation\.fdk\configs.json: Cannot find module 'C:\Users\Formation\.fdk\configs.json'
+Require stack:
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\utils\file.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\configs.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\lib\logger.js
+- C:\Users\Formation\AppData\Roaming\nvm\v18.20.8\node_modules\fdk\index.js
+2025-09-17 09:30:16.432 +0200 [debug] (configs.js) loaded global configs as "{}"
+2025-09-17 09:30:16.433 +0200 [debug] (configs.js) loaded local configs as "{"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-17 09:30:16.433 +0200 [debug] (configs.js) loaded env configs as "{"updates":{},"log":{},"javascript":{},"request":{"timeout":15000},"job":{"timeout":120000}}"
+2025-09-17 09:30:16.433 +0200 [debug] (configs.js) loaded resolved configs as "{"updates":{"manifest_url":"https://cdn.freshdev.io/assets/fdk/updates.json","period":24},"log":{"level":"info"},"javascript":{"ecma_version":2020},"request":{"timeout":15000},"global_apps":{"enabled":false},"easel":{"enabled":false},"job":{"timeout":120000}}"
+2025-09-17 09:30:16.433 +0200 [debug] (logger.js) Starting FDK in node v18.20.8 on win32
+2025-09-17 09:30:16.433 +0200 [debug] (sequelize.js) setting up sqilite at "C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/.fdk/store.sqlite"
+2025-09-17 09:30:16.433 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-17 09:30:16.433 +0200 [debug] (updater.js) last check less than 24 hours ago, not looking for updates
+2025-09-17 09:30:16.437 +0200 [debug] (index.js) running with opts {}
+2025-09-17 09:30:16.700 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-17 09:30:16.707 +0200 [debug] (manifest.js) Reloading manifest with {"platform-version":"2.3","product":{"freshdesk":{"location":{"ticket_sidebar":{"url":"index.html","icon":"styles/images/icon.svg"}},"requests":{"requestLicence":{},"requestSAV":{}}}},"engines":{"node":"18.20.8","fdk":"9.6.0"}}.
+2025-09-17 09:30:16.707 +0200 [debug] (manifest.js) Inferred db as features.
+2025-09-17 09:30:16.709 +0200 [debug] (data.js) Read {"version_details":{"cli":{"deprecated":{"version":"<9","message":"This FDK version has been deprecated. There will be no further feature updates to this version. For a seamless app-building experience, ensure to move to the latest FDK version. For more information, see https://developers.freshworks.com/docs/app-sdk/v2.3/freshdesk/migration-guide/#migrate-to-the-latest-platform-version."},"forced":{"version":"7.0.0","command":"npm install https://dl.freshdev.io/cli/fdk-7.0.0.tgz -g","message":"Your FDK version has been forced updated to v7.0.0, please visit https://community.developers.freshworks.com/t/fdk-v7-0-announcing-node-js-v12-and-es6-support/3606 to know more"},"latest":{"version":"9.6.0","command":"npm install https://cdn.freshdev.io/fdk/latest.tgz -g","message":"You are on the latest FDK version. For information on the features available as part of this FDK version, see https://developers.freshworks.com/docs/?tab=modules."}},"addon":{"version":"2.2.1","url":"https://cdn.freshdev.io/assets/fdk/addons/addon.zip"}},"last_updated":{"time_stamp":1758007980552}}
+2025-09-17 09:30:19.971 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:19.994 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:19.997 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:19.998 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.005 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.010 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.013 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.027 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.028 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.029 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.035 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.041 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.049 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.050 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.050 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:20.056 +0200 [debug] (index.js) 'schema: ' [object Object]
+2025-09-17 09:30:21.616 +0200 [debug] (pack.js) 'pack' called with {"1":true}
+2025-09-17 09:30:21.616 +0200 [debug] (validate.js) asked to skip the following validations, 
+2025-09-17 09:30:21.617 +0200 [debug] (validate.js) running validator actions
+2025-09-17 09:30:21.617 +0200 [debug] (validate.js) running validator requests
+2025-09-17 09:30:21.617 +0200 [debug] (requests.js) validating request template for "requestLicence"
+2025-09-17 09:30:21.618 +0200 [debug] (validate.js) running validator app-dir
+2025-09-17 09:30:21.619 +0200 [debug] (validate.js) running validator config-dir
+2025-09-17 09:30:21.619 +0200 [debug] (config-dir.js) Checking to see if C:\Users\Formation\Documents\GitHub\FreshDesk-Plugin/config/ exists.
+2025-09-17 09:30:21.619 +0200 [debug] (config-dir.js) Fetched the following config files iparams.json,requests.json
+2025-09-17 09:30:21.619 +0200 [debug] (validate.js) running validator custom-objects
+2025-09-17 09:30:21.620 +0200 [debug] (validate.js) running validator event
+2025-09-17 09:30:21.620 +0200 [debug] (validate.js) running validator iparam
+2025-09-17 09:30:21.623 +0200 [debug] (validate.js) running validator lint
+2025-09-17 09:30:21.623 +0200 [debug] (lint.js) passed fix flag: undefined
+2025-09-17 09:30:21.631 +0200 [debug] (lint.js) Running the following lints on the file app\scripts\app.js : no-eval,no-alert,no-debugger,no-unreachable,no-duplicate-imports,constructor-super,for-direction,no-class-assign,no-new-native-nonconstructor,valid-typeof,no-eq-null,no-var,require-await,no-unreachable-loop,no-redeclare,no-self-assign,no-setter-return,no-shadow-restricted-names,no-this-before-super,no-unsafe-finally,no-unsafe-optional-chaining,no-unused-vars,no-useless-catch,eqeqeq,prefer-const,require-yield,no-global-assign,no-caller,no-process-env,complexity,max-nested-callbacks,handle-callback-err,getter-return,no-async-promise-executor,no-case-declarations,no-compare-neg-zero,no-cond-assign,no-const-assign,no-constant-condition,no-control-regex,no-delete-var,no-dupe-args,no-dupe-class-members,no-dupe-else-if,no-dupe-keys,no-duplicate-case,no-empty,no-empty-character-class,no-empty-pattern,no-ex-assign,no-extra-boolean-cast,no-extra-semi,no-fallthrough,no-func-assign,no-import-assign,no-inner-declarations,no-invalid-regexp,no-irregular-whitespace,no-loss-of-precision,no-misleading-character-class,no-mixed-spaces-and-tabs,no-nonoctal-decimal-escape,no-obj-calls,no-octal,no-prototype-builtins,no-regex-spaces,no-sparse-arrays,no-unexpected-multiline,no-unsafe-negation,no-unused-labels,no-useless-backreference,no-useless-escape,no-with,use-isnan,no-unpkg-cdn,no-proxy-requests,no-unhandled-promise,no-logging-rejections,no-non-client-request-model,no-deprecated-apis,no-cross-scope-assign,no-empty-function
+2025-09-17 09:30:24.584 +0200 [debug] (validate.js) running validator manifest
+2025-09-17 09:30:24.584 +0200 [debug] (validate.js) running validator manifest-dependency
+2025-09-17 09:30:24.585 +0200 [debug] (validate.js) running validator oauth
+2025-09-17 09:30:24.585 +0200 [debug] (validate.js) skipping validator pkgsize
+2025-09-17 09:30:24.585 +0200 [debug] (validate.js) skipping validator schema
+2025-09-17 09:30:24.585 +0200 [debug] (validate.js) running validator version-check
+2025-09-17 09:30:24.585 +0200 [debug] (validate.js) running validator app-settings
+2025-09-17 09:30:24.591 +0200 [debug] (requests.js) validating request template for "requestSAV"
+2025-09-17 09:30:24.605 +0200 [warn] Please ensure that the following are addressed for quick review process:
+2025-09-17 09:30:24.607 +0200 [warn] [33m‼[39m app\scripts\app.js::6: 'client' declared and assigned in different scopes. Possible asynchronous race condition.
+2025-09-17 09:30:24.608 +0200 [warn] 
+2025-09-17 09:30:24.610 +0200 [info] App being packed in Node v18.20.8 using FDK 9.6.0
+2025-09-17 09:30:24.631 +0200 [debug] (report.js) Generating hash for report.json file
+2025-09-17 09:30:24.632 +0200 [debug] (data.js) Read {"freshd_101_101_migrate_oauth_status":true,"report_hash":"2e06ad40a39e65e8f4a3f01cca573c1fdefa8f3d80296633aea08b90b45cb520"}
+2025-09-17 09:30:24.632 +0200 [debug] (report.js) Comparing the stored hash with report.json file hash
+2025-09-17 09:30:24.634 +0200 [info] 
+Code coverage has been skipped. Skipping code coverage may result in your app being rejected by the Freshworks Marketplace. Ensure at least 80% coverage before final submission.
+
+2025-09-17 09:30:24.665 +0200 [debug] (pack.js) Cannot find './visitor-app' directory while packing.
+2025-09-17 09:30:24.666 +0200 [debug] (pack.js) Cannot find './src' directory while packing.
+2025-09-17 09:30:24.666 +0200 [debug] (pack.js) Cannot find './server' directory while packing.
+2025-09-17 09:30:24.677 +0200 [debug] (file.js) Computing digest for app\index.html,app\scripts\app.js,app\styles\images\icon.svg,app\styles\style.css,manifest.json.
+2025-09-17 09:30:24.681 +0200 [debug] (pack.js) Packing ./app\index.html
+2025-09-17 09:30:24.688 +0200 [debug] (pack.js) Packing ./app\scripts\app.js
+2025-09-17 09:30:24.697 +0200 [debug] (pack.js) Packing ./app\styles\images\icon.svg
+2025-09-17 09:30:24.698 +0200 [debug] (pack.js) Packing ./app\styles\style.css
+2025-09-17 09:30:24.698 +0200 [debug] (pack.js) Packing ./config\iparams.json
+2025-09-17 09:30:24.698 +0200 [debug] (pack.js) Packing ./config\requests.json
+2025-09-17 09:30:24.698 +0200 [debug] (pack.js) Packing ./manifest.json
+2025-09-17 09:30:24.698 +0200 [debug] (pack.js) Packing ./.report.json
+2025-09-17 09:30:24.698 +0200 [debug] (pack.js) Packing ./README.md
+2025-09-17 09:30:24.698 +0200 [debug] (pack.js) Packing ./digest.md5
+2025-09-17 09:30:24.766 +0200 [debug] (validate.js) asked to skip the following validations, 
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) skipping validator actions
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) skipping validator requests
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) skipping validator app-dir
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) skipping validator config-dir
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) skipping validator custom-objects
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) skipping validator event
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) skipping validator iparam
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) skipping validator lint
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) skipping validator manifest
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) skipping validator manifest-dependency
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) skipping validator oauth
+2025-09-17 09:30:24.767 +0200 [debug] (validate.js) running validator pkgsize
+2025-09-17 09:30:24.768 +0200 [debug] (validate.js) skipping validator schema
+2025-09-17 09:30:24.768 +0200 [debug] (validate.js) skipping validator version-check
+2025-09-17 09:30:24.768 +0200 [debug] (validate.js) skipping validator app-settings
+2025-09-17 09:30:24.769 +0200 [info] App packed successfully at \dist\FreshDesk-Plugin.zip
+2025-09-17 09:30:24.770 +0200 [info] Upload this file to the marketplace by following the instructions at https://developers.freshworks.com/docs/app-sdk/v3.0/common/app-submission-process/
+2025-09-17 09:30:24.770 +0200 [debug] (file.js) Deleting digest.
+2025-09-17 09:30:24.813 +0200 [debug] (report.js) Generating hash for report.json file

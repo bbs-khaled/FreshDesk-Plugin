@@ -59,7 +59,6 @@ async function getTicketDetails() {
 
     } catch (error) {
         console.error("Erreur lors de la récupération des détails du ticket:", error);
-        // Affiche un message d'erreur si les champs ne sont pas trouvés
         writeToId('titre', "Champs personnalisés manquants ou illisibles.");
         return null;
     }
@@ -76,8 +75,13 @@ async function getLicenceDetails(details) {
         displayStatus('success', 'Informations de licence récupérées');
         afficheInformations(data.response);
     } catch (error) {
-        displayStatus('danger', 'Échec de la requête de licence');
-        console.error("Erreur de requête (Licence):", error);
+        // --- AMÉLIORATION DE LA GESTION D'ERREUR ---
+        const status = error.status || 'inconnu';
+        const message = `Échec de la requête de licence (Code: ${status})`;
+        displayStatus('danger', message);
+        console.error("Erreur de requête (Licence):", error); // On log l'erreur complète pour le débogage
+        writeToId("societe", `<span class="alert">${message}</span>`);
+        showId("donnees");
     }
 }
 
@@ -92,8 +96,12 @@ async function getSAVDetails(details) {
         displayStatus('success', 'Informations SAV récupérées');
         afficheInformationsSAV(data.response);
     } catch (error) {
-        displayStatus('danger', 'Échec de la requête SAV');
-        console.error("Erreur de requête (SAV):", error);
+        // --- AMÉLIORATION DE LA GESTION D'ERREUR ---
+        const status = error.status || 'inconnu';
+        const message = `Échec de la requête SAV (Code: ${status})`;
+        displayStatus('danger', message);
+        console.error("Erreur de requête (SAV):", error); // On log l'erreur complète pour le débogage
+        writeToId("sav", `<span class="alert">${message}</span>`);
     }
 }
 
@@ -236,7 +244,6 @@ async function renderText() {
     const ticketDetails = await getTicketDetails();
 
     if (ticketDetails && ticketDetails.identifiant !== -1 && ticketDetails.licence) {
-        // On exécute les deux requêtes en parallèle pour gagner du temps
         await Promise.all([
             getLicenceDetails(ticketDetails),
             getSAVDetails(ticketDetails)
